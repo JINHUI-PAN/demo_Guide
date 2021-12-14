@@ -1,0 +1,37 @@
+<RCC>
+    <qresource prefix="/back">
+        <file>Image/button/2.png</file>
+        <file>Image/button/837.png</file>
+        <file>Image/button/838.png</file>
+        <file>Image/button/839.png</file>
+        <file>Image/button/840.png</file>
+        <file>Image/button/841.png</file>
+        <file>Image/button/842.png</file>
+        <file>Image/button/843.png</file>
+        <file>Image/button/844.png</file>
+        <file>Image/button/845.png</file>
+        <file>Image/button/846.png</file>
+        <file>Image/button/847.png</file>
+        <file>Image/button/246.png</file>
+        <file>Image/button/247.png</file>
+        <file>Image/button/248.png</file>
+        <file>Image/button/249.png</file>
+        <file>Image/button/4.png</file>
+        <file>Image/button/111.png</file>
+        <file>Image/button/112.png</file>
+        <file>Image/button/113.png</file>
+        <file>Image/button/850.png</file>
+        <file>Image/button/851.png</file>
+        <file>Image/button/852.png</file>
+        <file>Image/button/853.png</file>
+        <file>Image/button/854.png</file>
+        <file>Image/button/855.png</file>
+        <file>Image/button/four.png</file>
+        <file>Image/button/one.png</file>
+        <file>Image/button/three.png</file>
+        <file>Image/button/two.png</file>
+        <file>Image/button/config.png</file>
+        <file>Image/button/password.png</file>
+        <file>Image/button/hello.png</file>
+    </qresource>
+</RCC>

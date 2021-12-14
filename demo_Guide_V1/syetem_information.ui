@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Syetem_information</class>
+ <widget class="QMainWindow" name="Syetem_information">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>200</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>14</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>系统信息</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_CPU">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>270</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+</string>
+    </property>
+    <property name="text">
+     <string>CPU使用：45%</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_RAM">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>310</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>内存：200/1024M  30%</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_Flash">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>350</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>硬盘容量： 8/15G  70%</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_SN">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>390</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>设备SN： 212545585</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_Version">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>430</y>
+      <width>221</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>应用版本号：V2.0.1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_system">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>470</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>系统版本号： linux</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_restore">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>270</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>恢复出厂</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_exit">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>360</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(244, 163, 0);</string>
+    </property>
+    <property name="text">
+     <string>退出登录</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_restart">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>450</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(199, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>重启设备</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_system">
+    <property name="geometry">
+     <rect>
+      <x>752</x>
+      <y>40</y>
+      <width>132</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-image: url(:/back/Image/button/855.png);
+background-color: rgb(183, 222, 242);</string>
+    </property>
+    <property name="text">
+     <string>系统信息</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_oneConfig">
+    <property name="geometry">
+     <rect>
+      <x>338</x>
+      <y>40</y>
+      <width>132</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-image: url(:/back/Image/button/838.png);
+background-color: rgb(9, 82, 120);</string>
+    </property>
+    <property name="text">
+     <string>分控设置</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_name">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>10</y>
+      <width>371</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+</string>
+    </property>
+    <property name="text">
+     <string>保利科技园A栋2单元</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_remote">
+    <property name="geometry">
+     <rect>
+      <x>476</x>
+      <y>40</y>
+      <width>132</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>9</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-image: url(:/back/Image/button/852.png);
+background-color: rgb(9, 82, 120);</string>
+    </property>
+    <property name="text">
+     <string>遥控设置</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_project">
+    <property name="geometry">
+     <rect>
+      <x>614</x>
+      <y>40</y>
+      <width>132</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-image: url(:/back/Image/button/841.png);
+background-color: rgb(9, 82, 120);</string>
+    </property>
+    <property name="text">
+     <string>项目信息</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_dairy">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>40</y>
+      <width>132</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-image: url(:/back/Image/button/840.png);
+background-color: rgb(9, 82, 120);</string>
+    </property>
+    <property name="text">
+     <string>操作日志</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_WiFi">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>0</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/back/Image/button/four.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_control">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>40</y>
+      <width>132</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-image: url(:/back/Image/button/837.png);
+background-color: rgb(9, 82, 120);</string>
+    </property>
+    <property name="text">
+     <string>分控操作</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_time">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>10</y>
+      <width>211</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

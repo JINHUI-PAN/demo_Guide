@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>user_instructions</class>
+ <widget class="QMainWindow" name="user_instructions">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Arial</family>
+    <pointsize>11</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>550</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="text">
+     <string>登录</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>140</y>
+      <width>371</width>
+      <height>331</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(27, 111, 143);</string>
+    </property>
+    <widget class="QPushButton" name="pushButton_07">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>10</y>
+       <width>70</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(103, 103, 103);
+
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>7</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_08">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>10</y>
+       <width>70</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(103, 103, 103);
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>8</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_09">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>10</y>
+       <width>70</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(103, 103, 103);
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>9</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_06">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>90</y>
+       <width>70</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(103, 103, 103);
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>6</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_04">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>90</y>
+       <width>70</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(103, 103, 103);
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_05">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>90</y>
+       <width>70</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(103, 103, 103);
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>5</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_del">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>130</y>
+       <width>101</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 170, 0);</string>
+     </property>
+     <property name="text">
+      <string>删除</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_00">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>250</y>
+       <width>151</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(103, 103, 103);
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_point">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>250</y>
+       <width>70</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(103, 103, 103);
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>.</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_03">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>170</y>
+       <width>70</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(103, 103, 103);
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_01">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>170</y>
+       <width>70</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(103, 103, 103);
+color: rgb(6, 93, 139);
+</string>
+     </property>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_02">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>170</y>
+       <width>70</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(103, 103, 103);
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_ok">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>239</y>
+       <width>101</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>确定</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_NO">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>10</y>
+       <width>101</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 170, 0);</string>
+     </property>
+     <property name="text">
+      <string>取消</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_instructions">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>300</y>
+      <width>311</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-color: rgb(255, 0, 0);
+color: rgb(255, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>*密码输入代表已经阅读安全须知</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_passworderror">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>410</y>
+      <width>341</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-color: rgb(255, 0, 0);
+color: rgb(255, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>设备ID:21202545525密码错误，请重新输入</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_admininformation">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>220</y>
+      <width>451</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;爬架管理员信息：李雪 13425943698&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_StateInformation">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>160</y>
+      <width>501</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-color: rgb(255, 0, 0);
+color: rgb(255, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>设备ID：12542556414 未与后台绑定，如需使用请联系管理员</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_passwork">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>360</y>
+      <width>301</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string>请输入口令</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

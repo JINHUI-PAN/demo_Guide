@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>demo_guide</class>
+ <widget class="QMainWindow" name="demo_guide">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>demo_guide</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLineEdit" name="lineEdit_projectName">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>230</y>
+      <width>191</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>请输入项目编号</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>240</y>
+      <width>54</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>项目编号:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bandButton">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>290</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>绑定</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
